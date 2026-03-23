@@ -1,0 +1,57 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+import { MapPin, Calendar } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const CALENDLY_URL = "https://calendly.com/pedro-olisipoway/let-s-talk";
+const MAPS_URL = "https://goo.gl/maps/9VAkZQRBgWK3EZHg6";
+
+const Hero = () => {
+  const { t } = useLanguage();
+
+  return (
+    <section className="py-16 md:py-28 px-4">
+      <div className="container max-w-3xl text-center">
+        <p className="text-xs md:text-sm font-semibold tracking-[0.3em] text-primary mb-4">
+          OLISIPO WAY
+        </p>
+        <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-4">
+          {t("Visite O Nosso Escritório", "Visit Our Office")}
+        </h1>
+        <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
+          {t(
+            "Estamos Aqui Para O Ajudar A Chegar Com Facilidade",
+            "We Are Here To Help You Arrive Easily"
+          )}
+        </p>
+        <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-10">
+          Av. Infante Dom Henrique 333H
+          <br />
+          1º andar, escritório 17
+          <br />
+          1800-282 Lisboa, Portugal
+        </address>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
+            <a href="#quick-access">
+              <MapPin className="mr-2 h-4 w-4" />
+              {t("Obter Direções", "Get Directions")}
+            </a>
+          </Button>
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="rounded-full px-8 text-sm font-medium"
+          >
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
+              <Calendar className="mr-2 h-4 w-4" />
+              {t("Marcar Reunião", "Book A Meeting")}
+            </a>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
