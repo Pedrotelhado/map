@@ -34,12 +34,12 @@ const QuickAccess = () => {
       <div className="container max-w-4xl">
         <div className="text-center mb-10">
           <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-            {t("Acesso Rápido", "Quick Access")}
+            {t("Acesso rápido", "Quick access")}
           </h2>
           <p className="text-sm md:text-base text-muted-foreground">
             {t(
-              "Links Rápidos Para O Escritório E Estacionamento",
-              "Quick Links For Office And Parking"
+              "Links de acesso ao escritório e estacionamento",
+              "Directions to the office and parking"
             )}
           </p>
         </div>
