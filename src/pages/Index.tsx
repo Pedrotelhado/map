@@ -1,16 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { LanguageProvider } from "@/contexts/LanguageContext";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import QuickAccess from "@/components/QuickAccess";
+import Directions from "@/components/Directions";
+import AddressCard from "@/components/AddressCard";
+import FinalCTA from "@/components/FinalCTA";
+import AboutUs from "@/components/AboutUs";
+import StickyMobileCTA from "@/components/StickyMobileCTA";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen bg-background pb-20 md:pb-0">
+        <Header />
+        <Hero />
+        <QuickAccess />
+        <Directions />
+        <AddressCard />
+        <FinalCTA />
+        <AboutUs />
+        <StickyMobileCTA />
+      </div>
+    </LanguageProvider>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
