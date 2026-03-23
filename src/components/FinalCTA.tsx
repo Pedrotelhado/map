@@ -13,7 +13,7 @@ const FinalCTA = () => {
       <div className="container max-w-2xl text-center">
         <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-3">
           {t("Vamos conversar", "Let's talk")}
-        </p>
+        </a>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
             <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
