@@ -12,13 +12,7 @@ const FinalCTA = () => {
     <section className="py-16 md:py-24">
       <div className="container max-w-2xl text-center">
         <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-3">
-          {t("Vamos Conversar", "Let's Talk")}
-        </h2>
-        <p className="text-sm md:text-base text-muted-foreground mb-8 max-w-lg mx-auto">
-          {t(
-            "Se Vai Visitar-Nos Ou Marcar Uma Reunião, Estamos À Sua Espera",
-            "If You're Planning To Visit Us Or Book A Meeting, We're Ready To Welcome You"
-          )}
+          {t("Vamos conversar", "Let's talk")}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
