@@ -7,7 +7,7 @@ const AboutUs = () => {
     <section className="py-16 md:py-20 bg-secondary/50">
       <div className="container max-w-2xl text-center">
         <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground mb-4">
-          {t("Sobre Nós", "About Us")}
+          {t("Sobre nós", "About us")}
         </h2>
         <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
           {t("Somos um investidor focado em early-stage, com um portfólio de mais de 80 startups, maioritariamente sediadas em Portugal.",
