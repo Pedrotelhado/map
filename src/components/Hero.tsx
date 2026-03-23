@@ -15,12 +15,12 @@ const Hero = () => {
           OLISIPO WAY
         </p>
         <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-4">
-          {t("Visite O Nosso Escritório", "Visit Our Office")}
+          {t("Visite o nosso Escritório", "Visit our office")}
         </h1>
         <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
           {t(
-            "Estamos Aqui Para O Ajudar A Chegar Com Facilidade",
-            "We Are Here To Help You Arrive Easily"
+            "Vamos ajudá-lo a chegar com facilidade",
+            "We’ll help you get here with ease"
           )}
         </p>
         <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-10">
