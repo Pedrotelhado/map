@@ -4,14 +4,14 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const AboutUs = () => {
   const { t } = useLanguage();
 
-  return (
+ return (
     <section className="py-16 md:py-20 bg-secondary/50">
       <div className="container max-w-2xl text-center">
-        <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground mb-6">
-          {t("Sobre nós", "About us")}
-        </h2>
+        <span className="text-sm md:text-base font-semibold tracking-[0.25em] text-foreground">
+          OLISIPO WAY
+        </span>
 
-        <div className="flex items-center justify-center">
+        <div className="mt-6 flex items-center justify-center">
           <a
             href="https://www.linkedin.com/"
             target="_blank"
