@@ -21,8 +21,8 @@ const Directions = () => {
     {
       icon: Map,
       image: step1,
-      pt: "Visão geral - Av. Infante Dom Henrique 333H",
-      en: "Overview — Av. Infante Dom Henrique 333H",
+      pt: "Localização no mapa",
+      en: "Map location",
     },
     {
       icon: CornerDownRight,
@@ -33,8 +33,8 @@ const Directions = () => {
     {
       icon: ParkingSquare,
       image: step3,
-      pt: "Estacionamento - Av. de Pádua (EMEL) - virar à esquerda ao sair",
-      en: "Parking - Av. de Pádua (EMEL) and turn left when exiting",
+      pt: "Estacionamento (EMEL) - virar à esquerda ao sair",
+      en: "Parking (EMEL) - turn left when exiting",
     },
     {
       icon: ArrowLeft,
