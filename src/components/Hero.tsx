@@ -44,7 +44,7 @@ const Hero = () => {
           >
             <a href="https://olisipoway.com/" target="_blank" rel="noopener noreferrer">
               <Globe className="mr-2 h-4 w-4" />
-              {t("OLISIPO WAY", "OLISIPO WAY")}
+              {t("Sobre nós", "About us")}
             </a>
           </Button>
         </div>
