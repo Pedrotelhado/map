@@ -13,37 +13,37 @@ const Directions = () => {
   const steps = [
     {
       icon: Map,
-      image: step-1,
+      image: step1,
       pt: "Visão geral - Av. Infante Dom Henrique 333H",
       en: "Overview — Av. Infante Dom Henrique 333H",
     },
     {
       icon: CornerDownRight,
-      image: step-2,
+      image: step2,
       pt: "Contornar o quarteirão",
       en: "Go around the block",
     },
     {
       icon: ParkingSquare,
-      image: step-3,
+      image: step3,
       pt: "Estacionamento - Av. de Pádua (EMEL) - virar à esquerda ao sair",
       en: "Parking - Av. de Pádua (EMEL) and turn left when existing",
     },
     {
       icon: ArrowLeft,
-      image: step-4,
+      image: step4,
       pt: "Virar à esquerda na entrada da garam e contornar o quarteirão",
       en: "Turn left at the garage entrance and go around the block",
     },
     {
       icon: DoorOpen,
-      image: step-5,
+      image: step5,
       pt: "Entrada do edifício",
       en: "Building entrance",
     },
     {
       icon: Building2,
-      image: step-6,
+      image: step6,
       pt: "Subir ao 1º andar, escritório 17",
       en: "Go to the 1st floor, office 17",
     },
