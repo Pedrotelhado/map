@@ -12,7 +12,7 @@ const AboutUs = () => {
 
         <div className="flex flex-wrap items-center justify-center gap-4 text-sm md:text-base">
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/company/olisipoway/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
@@ -21,7 +21,7 @@ const AboutUs = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://olisipoway.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
