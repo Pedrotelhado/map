@@ -4,10 +4,10 @@ import { useLanguage } from "@/contexts/LanguageContext";
 const AboutUs = () => {
   const { t } = useLanguage();
 
- return (
+return (
     <section className="py-16 md:py-20 bg-secondary/50">
       <div className="container max-w-2xl text-center">
-        <span className="text-sm md:text-base font-semibold tracking-[0.25em] text-foreground">
+        <span className="text-sm md:text-base font-semibold tracking-[0.4em] text-primary">
           OLISIPO WAY
         </span>
 
