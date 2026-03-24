@@ -37,19 +37,7 @@ const Hero = () => {
               {t("Obter Direções", "Get Directions")}
             </a>
           </Button>
-          <Button
-            asChild
-            variant="outline"
-            size="lg"
-            className="rounded-full px-8 text-sm font-medium"
-          >
-            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
-              <Calendar className="mr-2 h-4 w-4" />
-              {t("Marcar Reunião", "Book A Meeting")}
-            </a>
-          </Button>
         </div>
-      </div>
     </section>
   );
 };
