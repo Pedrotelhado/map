@@ -37,6 +37,16 @@ const Hero = () => {
               {t("Obter Direções", "Get Directions")}
             </a>
           </Button>
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="rounded-full px-8 text-sm font-medium"
+          >
+            <a href="https://olisipoway.com/" target="_blank" rel="noopener noreferrer">
+              {t("OLISIPO WAY", "OLISIPO WAY")}
+            </a>
+          </Button>
         </div>
       </div>
     </section>
