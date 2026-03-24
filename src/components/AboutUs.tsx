@@ -1,5 +1,5 @@
 import { Linkedin } from "lucide-react";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const AboutUs = () => {
   const { t } = useLanguage();
