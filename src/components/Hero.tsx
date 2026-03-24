@@ -44,6 +44,7 @@ const Hero = () => {
             className="rounded-full px-8 text-sm font-medium"
           >
             <a href="https://olisipoway.com/" target="_blank" rel="noopener noreferrer">
+              <Globe className="mr-2 h-4 w-4" />
               {t("OLISIPO WAY", "OLISIPO WAY")}
             </a>
           </Button>
