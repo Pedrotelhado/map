@@ -74,20 +74,32 @@ const Directions = () => {
         <div className="space-y-8">
           {steps.map((step, i) => {
             const Icon = step.icon;
+            const isFirstStep = i === 0;
 
             return (
               <div
                 key={i}
                 className="rounded-2xl border border-border bg-card shadow-sm overflow-hidden"
               >
-                <div className="aspect-[16/10] md:aspect-[16/8] overflow-hidden">
+                <div
+                  className={
+                    isFirstStep
+                      ? "overflow-hidden"
+                      : "aspect-[16/10] md:aspect-[16/8] overflow-hidden"
+                  }
+                >
                   <img
                     src={step.image}
                     alt={t(step.pt, step.en)}
-                    className="w-full h-full object-cover"
+                    className={
+                      isFirstStep
+                        ? "w-full h-auto"
+                        : "w-full h-full object-cover"
+                    }
                     loading={i > 1 ? "lazy" : undefined}
                   />
                 </div>
+
                 <div className="flex items-start gap-4 p-5 md:p-6">
                   <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground text-sm font-bold">
                     {i + 1}
