@@ -14,38 +14,38 @@ const Directions = () => {
     {
       icon: Map,
       image: step1,
-      pt: "Visão Geral — Localize A Av. Infante Dom Henrique 333H No Mapa",
-      en: "Overview — Locate Av. Infante Dom Henrique 333H On The Map",
+      pt: "Visão geral - Av. Infante Dom Henrique 333H",
+      en: "Overview — Av. Infante Dom Henrique 333H",
     },
     {
       icon: CornerDownRight,
       image: step2,
-      pt: "Contorne O Quarteirão",
-      en: "Go Around The Block",
+      pt: "Contornar o quarteirão",
+      en: "Go around the block",
     },
     {
       icon: ParkingSquare,
       image: step3,
-      pt: "Estacione No Estacionamento Av. de Pádua (EMEL) E Vire À Esquerda Ao Sair",
-      en: "Park At Estacionamento Av. de Pádua (EMEL) And Turn Left When Exiting",
+      pt: "Estacionamento - Av. de Pádua (EMEL) - virar à esquerda ao sair",
+      en: "Parking - Av. de Pádua (EMEL) and turn left when existing",
     },
     {
       icon: ArrowLeft,
       image: step4,
-      pt: "Vire À Esquerda Na Entrada Da Garagem E Contorne O Quarteirão",
-      en: "Turn Left At The Garage Entrance And Go Around The Block",
+      pt: "Virar à esquerda na entrada da garam e contornar o quarteirão",
+      en: "Turn left at the garage entrance and go around the block",
     },
     {
       icon: DoorOpen,
       image: step5,
-      pt: "Entrada Do Edifício",
-      en: "Building Entrance",
+      pt: "Entrada do edifício",
+      en: "Building entrance",
     },
     {
       icon: Building2,
       image: step6,
-      pt: "Suba Ao 1º Andar, Escritório 17",
-      en: "Go To The 1st Floor, Office 17",
+      pt: "Subir ao 1º andar, escritório 17",
+      en: "Go to the 1st floor, office 17",
     },
   ];
 
@@ -58,7 +58,7 @@ const Directions = () => {
           </h2>
           <p className="text-sm md:text-base text-muted-foreground">
             {t(
-              "Siga os passos seguintes para encontrar o edifício",
+              "Seguir os passos seguintes para encontrar o edifício",
               "Follow the next steps to find the building"
             )}
           </p>
