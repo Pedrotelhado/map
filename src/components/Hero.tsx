@@ -1,8 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { MapPin, Calendar } from "lucide-react";
+import { MapPin, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const CALENDLY_URL = "https://calendly.com/pedro-olisipoway/let-s-talk";
 const MAPS_URL = "https://goo.gl/maps/9VAkZQRBgWK3EZHg6";
 
 const Hero = () => {
