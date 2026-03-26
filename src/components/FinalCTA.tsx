@@ -12,7 +12,7 @@ const FinalCTA = () => {
   <section className="py-16 md:py-24">
     <div className="container max-w-2xl text-center">
       <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4">
-        {t("Sobre nós", "About Us")}
+        {t("Sobre nós", "About us")}
       </h2>
 
       <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
