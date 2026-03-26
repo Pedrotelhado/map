@@ -51,8 +51,8 @@ const Directions = () => {
     {
       icon: Building2,
       image: step6,
-      pt: "Subir ao 1º andar, escritório 17",
-      en: "Go to the 1st floor, office 17",
+      pt: "Subir ao 1º andar, escritório 17A",
+      en: "Go to the 1st floor, office 17A",
     },
   ];
 
