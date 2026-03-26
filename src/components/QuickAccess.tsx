@@ -12,19 +12,19 @@ const QuickAccess = () => {
     {
       icon: Navigation,
       title: t("Waze — Escritório", "Waze — Office"),
-      subtitle: t("Abrir No Waze", "Open In Waze"),
+      subtitle: t("Abrir no Waze", "Open in Waze"),
       url: WAZE_OFFICE,
     },
     {
       icon: Car,
       title: t("Waze — Estacionamento", "Waze — Parking"),
-      subtitle: t("Estacionamento Mais Próximo", "Nearest Parking"),
+      subtitle: t("Estacionamento mais próximo", "Nearest parking"),
       url: WAZE_PARKING,
     },
     {
       icon: MapPin,
       title: t("Google Maps — Escritório", "Google Maps — Office"),
-      subtitle: t("Abrir No Google Maps", "Open In Google Maps"),
+      subtitle: t("Abrir no Google Maps", "Open In Google Maps"),
       url: MAPS_OFFICE,
     },
   ];
