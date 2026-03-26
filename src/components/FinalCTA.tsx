@@ -17,8 +17,8 @@ const FinalCTA = () => {
 
       <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
         {t(
-          "Somos um investidor focado em early-stage, com um portfólio de mais de 80 startups, maioritariamente sediadas em Portugal.",
-          "We are an early-stage investor with a portfolio of over 80 startups, most of which are based in Portugal."
+          "Somos um investidor focado em early-stage, com uma comunidade de mais de 100 empresas.",
+          "We are an early-stage investor with a portfolio of over 100 companies."
         )}
       </p>
     </div>
