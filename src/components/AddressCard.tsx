@@ -25,7 +25,7 @@ const AddressCard = () => {
           <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-8">
             Av. Infante Dom Henrique 333H
             <br />
-            1º andar, escritório 17
+            1º andar, escritório 17A
             <br />
             1800-282 Lisboa, Portugal
           </address>
