@@ -25,7 +25,7 @@ const Hero = () => {
         <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-10">
           Av. Infante Dom Henrique 333H
           <br />
-          1º andar, escritório 17
+          1º andar, escritório 17A
           <br />
           1800-282 Lisboa, Portugal
         </address>
@@ -33,7 +33,7 @@ const Hero = () => {
           <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
             <a href="#quick-access">
               <MapPin className="mr-2 h-4 w-4" />
-              {t("Obter Direções", "Get Directions")}
+              {t("Obter direções", "Get directions")}
             </a>
           </Button>
           <Button
