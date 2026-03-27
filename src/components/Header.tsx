@@ -1,5 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import owLogo from "@/assets/ow-logo.png";
+import owLogo from "@/assets/ow-logo.svg";
 
 const Header = () => {
   const { lang, setLang } = useLanguage();
