@@ -6,7 +6,6 @@ import Directions from "@/components/Directions";
 import AddressCard from "@/components/AddressCard";
 import FinalCTA from "@/components/FinalCTA";
 import AboutUs from "@/components/AboutUs";
-import StickyMobileCTA from "@/components/StickyMobileCTA";
 
 const Index = () => {
   return (
@@ -19,7 +18,6 @@ const Index = () => {
         <AddressCard />
         <FinalCTA />
         <AboutUs />
-        <StickyMobileCTA />
       </div>
     </LanguageProvider>
   );
