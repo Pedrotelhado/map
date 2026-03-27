@@ -9,9 +9,7 @@ const Header = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         <div className="flex items-center gap-3">
           <img src={owLogo} alt="OLISIPO WAY" className="h-8 md:h-10 w-auto" />
-          <span className="text-sm md:text-base font-semibold tracking-[0.25em] text-foreground">
-            OLISIPO WAY
-          </span>
+          {/* Removed the <span> containing the lettering here */}
         </div>
         <div className="flex items-center gap-1 rounded-full border border-border bg-card p-1">
           <button
