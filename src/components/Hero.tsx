@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="py-16 md:py-28 px-4">
       <div className="container max-w-3xl text-center">
         <p className="text-xs md:text-sm font-semibold tracking-[0.3em] text-primary mb-4">
-          OLISIPO WAY
+          Abela, Santiago do Cacém
         </p>
         <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-4">
           {t("Monte do Lago", "Monte do Lago")}
