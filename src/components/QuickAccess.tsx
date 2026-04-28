@@ -1,66 +1,62 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Navigation, Car, MapPin } from "lucide-react";
-
-const WAZE_OFFICE = "https://waze.com/ul/heycs8b9zm";
-const WAZE_PARKING = "https://waze.com/ul/heycs8b8hs";
-const MAPS_OFFICE = "https://goo.gl/maps/9VAkZQRBgWK3EZHg6";
+import { Navigation, Map } from "lucide-react";
 
 const QuickAccess = () => {
   const { t } = useLanguage();
 
-  const cards = [
-    {
-      icon: Navigation,
-      title: t("Waze — Escritório", "Waze — Office"),
-      subtitle: t("Abrir no Waze", "Open in Waze"),
-      url: WAZE_OFFICE,
-    },
-    {
-      icon: Car,
-      title: t("Waze — Estacionamento", "Waze — Parking"),
-      subtitle: t("Estacionamento mais próximo", "Nearest parking"),
-      url: WAZE_PARKING,
-    },
-    {
-      icon: MapPin,
-      title: t("Google Maps — Escritório", "Google Maps — Office"),
-      subtitle: t("Abrir no Google Maps", "Open In Google Maps"),
-      url: MAPS_OFFICE,
-    },
-  ];
-
   return (
-    <section id="quick-access" className="py-16 md:py-24 bg-secondary/50">
-      <div className="container max-w-4xl">
-        <div className="text-center mb-10">
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-            {t("Acesso rápido", "Quick access")}
-          </h2>
-          <p className="text-sm md:text-base text-muted-foreground">
-            {t(
-              "Links de acesso ao escritório e estacionamento",
-              "Directions to the office and parking"
-            )}
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          {cards.map((card) => (
-            <a
-              key={card.url}
-              href={card.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 md:p-8 shadow-sm hover:shadow-md hover:border-primary/30 transition-all cursor-pointer text-center"
-            >
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-accent text-accent-foreground">
-                <card.icon className="h-5 w-5" />
-              </div>
-              <span className="font-medium text-sm text-foreground group-hover:text-primary transition-colors">
-                {card.title}
-              </span>
-              <span className="text-xs text-muted-foreground">{card.subtitle}</span>
-            </a>
-          ))}
+    <section
+      id="quick-access"
+      className="py-16 md:py-24 px-4 bg-secondary/40"
+    >
+      <div className="container max-w-4xl text-center">
+        {/* Section header */}
+        <h2 className="font-display text-2xl md:text-4xl text-foreground mb-3">
+          {t("Acesso rápido", "Quick access")}
+        </h2>
+
+        <p className="text-muted-foreground mb-12 text-sm md:text-base">
+          {t(
+            "Escolhe a tua aplicação de navegação",
+            "Choose your navigation app"
+          )}
+        </p>
+
+        {/* Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          
+          {/* Waze */}
+          <a
+            href="https://waze.com/ul/heycbj7j2f"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center justify-center gap-4 rounded-2xl border border-border bg-white/40 backdrop-blur p-10 transition-all duration-300 hover:bg-white/60 hover:shadow-md text-center"
+          >
+            <div className="w-14 h-14 flex items-center justify-center rounded-full bg-background/60">
+              <Navigation className="h-6 w-6 text-foreground/80" />
+            </div>
+
+            <span className="text-lg font-medium text-foreground">
+              Waze
+            </span>
+          </a>
+
+          {/* Google Maps */}
+          <a
+            href="https://maps.app.goo.gl/JFKtUMrdnMGFnNf4A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center justify-center gap-4 rounded-2xl border border-border bg-white/40 backdrop-blur p-10 transition-all duration-300 hover:bg-white/60 hover:shadow-md text-center"
+          >
+            <div className="w-14 h-14 flex items-center justify-center rounded-full bg-background/60">
+              <Map className="h-6 w-6 text-foreground/80" />
+            </div>
+
+            <span className="text-lg font-medium text-foreground">
+              Google Maps
+            </span>
+          </a>
+
         </div>
       </div>
     </section>
