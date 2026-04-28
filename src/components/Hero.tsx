@@ -23,11 +23,11 @@ const Hero = () => {
           )}
         </p>
         <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-10">
-          Av. Infante Dom Henrique 333H
+          N390, 7540-011 São Domingos
           <br />
-          1º andar, escritório 17A
+          Santiago do Cacém
           <br />
-          1800-282 Lisboa, Portugal
+          Setúbal, Portugal
         </address>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
