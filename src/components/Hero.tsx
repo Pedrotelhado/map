@@ -42,7 +42,7 @@ const Hero = () => {
             size="lg"
             className="rounded-full px-8 text-sm font-medium"
           >
-            <a href="https://olisipoway.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://montedolago.com//" target="_blank" rel="noopener noreferrer">
               <Globe className="mr-2 h-4 w-4" />
               {t("Sobre nós", "About us")}
             </a>
