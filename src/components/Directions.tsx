@@ -21,8 +21,8 @@ const Directions = () => {
     {
       icon: Map,
       image: step1,
-      pt: "Localização no mapa",
-      en: "Map location",
+      pt: "Este é o caminho que queres encontrar - Segue os passos abaixo",
+      en: "This is the path you want to find – Follow the steps below",
     },
     {
       icon: CornerDownRight,
