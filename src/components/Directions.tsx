@@ -61,12 +61,12 @@ const Directions = () => {
       <div className="container max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-            {t("Como chegar", "How to get here")}
+            {t("Ao entrar na Abela", "Upon entering Abela")}
           </h2>
           <p className="text-sm md:text-base text-muted-foreground">
             {t(
-              "Seguir os passos seguintes para encontrar o edifício",
-              "Follow the next steps to find the building"
+              "Segue passo a passo para que não te enganes no caminho",
+              "Here’s a step-by-step guide so you don’t take a wrong turn"
             )}
           </p>
         </div>
