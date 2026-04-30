@@ -12,7 +12,7 @@ import step2 from "@/assets/step-2.jpeg";
 import step3 from "@/assets/step-3.png";
 import step4 from "@/assets/step-4.png";
 import step5 from "@/assets/step-5.png";
-import step6 from "@/assets/step-6.png";
+import step6 from "@/assets/step-6.jpg";
 
 const Directions = () => {
   const { t } = useLanguage();
