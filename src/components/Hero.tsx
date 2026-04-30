@@ -23,9 +23,9 @@ const Hero = () => {
           )}
         </p>
         <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-10">
-          N390, 7540-011 São Domingos
+          Monte do Lago, N390, 7540-011 São Domingos
           <br />
-          Santiago do Cacém
+          Abela - Santiago do Cacém
           <br />
           Setúbal, Portugal
         </address>
