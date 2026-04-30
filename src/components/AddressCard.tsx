@@ -3,8 +3,8 @@ import { Copy, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
-const MAPS_URL = "https://goo.gl/maps/9VAkZQRBgWK3EZHg6";
-const ADDRESS = "Av. Infante Dom Henrique 333H\n1º andar, escritório 17\n1800-282 Lisboa, Portugal";
+const MAPS_URL = "https://maps.app.goo.gl/qtpRwv3NVgzDw8fu5";
+const ADDRESS = "Monte do Lago, N390, 7540-011 São Domingos";
 
 const AddressCard = () => {
   const { t } = useLanguage();
@@ -23,11 +23,11 @@ const AddressCard = () => {
             {t("Morada", "Address")}
           </h2>
           <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-8">
-            Av. Infante Dom Henrique 333H
+            N390, 7540-011 São Domingos
             <br />
-            1º andar, escritório 17A
+            Abela - Santiago do Cacém
             <br />
-            1800-282 Lisboa, Portugal
+            Setúbal, Portugal
           </address>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Button
