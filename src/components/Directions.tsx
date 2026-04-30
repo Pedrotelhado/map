@@ -1,10 +1,10 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
   Map,
-  CornerDownRight,
   ArrowUp,
-  DoorOpen,
-  Building2,
+  ArrowLeft,
+  ArrowLeft,
+  House,
 } from "lucide-react";
 
 import step1 from "@/assets/step-1.png";
@@ -24,28 +24,28 @@ const Directions = () => {
       en: "This is the path you want to find – Follow the steps below",
     },
     {
-      icon: CornerDownRight,
+      icon: ArrowUp,
       image: step2,
       pt: "Seguir em frente até à casa branca.",
-      en: "Go straight forward to the white house.",
+      en: "Go straight torwards the white house.",
     },
     {
-      icon: ArrowUp,
+      icon: ArrowLeft,
       image: step4,
-      pt: "Virar à esquerda na entrada da garagem e contornar o quarteirão",
-      en: "Turn left at the garage entrance and go around the block",
+      pt: "Virar à esquerda logo após a casa.",
+      en: "Turn left just after the house.",
     },
     {
-      icon: DoorOpen,
+      icon: ArrowLeft,
       image: step5,
-      pt: "Entrada do edifício",
-      en: "Building entrance",
+      pt: "Entrada do caminho de terra.",
+      en: "Entrance to the gravel path.",
     },
     {
-      icon: Building2,
+      icon: House,
       image: step6,
-      pt: "Subir ao 1º andar, escritório 17A",
-      en: "Go to the 1st floor, office 17A",
+      pt: "Seguir em frente até chegar à casa.",
+      en: "Go straight on until you reach the house.",
     },
   ];
 
