@@ -26,8 +26,6 @@ const Hero = () => {
           Monte do Lago, N390, 7540-011 São Domingos
           <br />
           Abela - Santiago do Cacém
-          <br />
-          Setúbal, Portugal
         </address>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button asChild size="lg" className="rounded-full px-8 text-sm font-medium">
