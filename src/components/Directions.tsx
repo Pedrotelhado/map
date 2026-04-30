@@ -3,10 +3,11 @@ import {
   Map,
   CornerDownRight,
   ParkingSquare,
-  ArrowLeft,
+  ArrowUp,
   DoorOpen,
   Building2,
 } from "lucide-react";
+
 import step1 from "@/assets/step-1.png";
 import step2 from "@/assets/step-2.jpeg";
 import step3 from "@/assets/step-3.png";
@@ -37,7 +38,7 @@ const Directions = () => {
       en: "Parking (EMEL) - turn left when exiting",
     },
     {
-      icon: ArrowLeft,
+      icon: ArrowUp, // ✅ changed here
       image: step4,
       pt: "Virar à esquerda na entrada da garagem e contornar o quarteirão",
       en: "Turn left at the garage entrance and go around the block",
@@ -63,6 +64,7 @@ const Directions = () => {
           <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
             {t("Ao entrar na Abela", "Upon entering Abela")}
           </h2>
+
           <p className="text-sm md:text-base text-muted-foreground">
             {t(
               "Segue passo a passo para que não te enganes no caminho",
@@ -104,8 +106,10 @@ const Directions = () => {
                   <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground text-sm font-bold">
                     {i + 1}
                   </div>
+
                   <div className="flex items-center gap-3 pt-1.5">
-                    <Icon className="h-4 w-4 text-muted-foreground shrink-0 hidden md:block" />
+                    <Icon className="h-3.5 w-3.5 stroke-[1.5] text-muted-foreground shrink-0 hidden md:block" />
+
                     <p className="text-sm md:text-base text-foreground font-medium leading-snug">
                       {t(step.pt, step.en)}
                     </p>
