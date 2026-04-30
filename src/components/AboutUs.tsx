@@ -1,4 +1,4 @@
-import { Linkedin, Globe } from "lucide-react";
+import { Instagram, Globe } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const AboutUs = () => {
@@ -11,23 +11,23 @@ const AboutUs = () => {
           MONTE DO LAGO
         </span>
 
-        {/* LinkedIn Link */}
+        {/* Instagram Link */}
         <div className="mt-5 flex items-center justify-center">
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.instagram.com/_montedolago_/?utm_source=ig_web_button_share_sheet"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs md:text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
           >
-            <Linkedin className="h-3.5 w-3.5" />
-            <span>LinkedIn</span>
+            <Instagram className="h-3.5 w-3.5" />
+            <span>Instagram</span>
           </a>
         </div>
 
         {/* Website / About Us Link */}
         <div className="mt-3 flex items-center justify-center">
           <a
-            href="https://olisipoway.com/"
+            href="https://maps.app.goo.gl/qtpRwv3NVgzDw8fu5"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs md:text-sm text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
