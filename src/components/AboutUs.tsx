@@ -8,7 +8,7 @@ const AboutUs = () => {
     <section className="py-16 md:py-20 bg-secondary/50">
       <div className="container max-w-2xl text-center">
         <span className="text-xs md:text-sm font-semibold tracking-[0.4em] text-primary">
-          OLISIPO WAY
+          MONTE DO LAGO
         </span>
 
         {/* LinkedIn Link */}
