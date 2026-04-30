@@ -2,7 +2,6 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import {
   Map,
   CornerDownRight,
-  ParkingSquare,
   ArrowUp,
   DoorOpen,
   Building2,
@@ -10,7 +9,6 @@ import {
 
 import step1 from "@/assets/step-1.png";
 import step2 from "@/assets/step-2.jpeg";
-import step3 from "@/assets/step-3.png";
 import step4 from "@/assets/step-4.png";
 import step5 from "@/assets/step-5.png";
 import step6 from "@/assets/step-6.jpg";
@@ -28,17 +26,11 @@ const Directions = () => {
     {
       icon: CornerDownRight,
       image: step2,
-      pt: "Contornar o quarteirão",
-      en: "Go around the block",
+      pt: "Seguir em frente até à casa branca.",
+      en: "Go straight forward to the white house.",
     },
     {
-      icon: ParkingSquare,
-      image: step3,
-      pt: "Estacionamento (EMEL) - virar à esquerda ao sair",
-      en: "Parking (EMEL) - turn left when exiting",
-    },
-    {
-      icon: ArrowUp, // ✅ changed here
+      icon: ArrowUp,
       image: step4,
       pt: "Virar à esquerda na entrada da garagem e contornar o quarteirão",
       en: "Turn left at the garage entrance and go around the block",
