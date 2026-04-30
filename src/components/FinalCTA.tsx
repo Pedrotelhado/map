@@ -17,8 +17,8 @@ const FinalCTA = () => {
 
       <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
         {t(
-          "Onde o Alentejo encontra o seu melhor.",
-          "Where the Alentejo is at its best."
+          "Monte típico alentejano presente na família há 40 anos. Aqui valorizamos a tranquilidade e exclusividade.",
+          "A typical Alentejo house within our family for 40 years. Here, we value peace and exclusivity."
         )}
       </p>
     </div>
