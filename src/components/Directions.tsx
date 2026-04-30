@@ -8,7 +8,7 @@ import {
   Building2,
 } from "lucide-react";
 import step1 from "@/assets/step-1.png";
-import step2 from "@/assets/step-2.png";
+import step2 from "@/assets/step-2.jpeg";
 import step3 from "@/assets/step-3.png";
 import step4 from "@/assets/step-4.png";
 import step5 from "@/assets/step-5.png";
