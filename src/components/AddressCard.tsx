@@ -23,7 +23,7 @@ const AddressCard = () => {
             {t("Morada", "Address")}
           </h2>
           <address className="not-italic text-sm md:text-base text-foreground/80 leading-relaxed mb-8">
-            N390, 7540-011 São Domingos
+            Monte do Lago, N390, 7540-011 São Domingos
             <br />
             Abela - Santiago do Cacém
             <br />
