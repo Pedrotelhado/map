@@ -3,7 +3,7 @@ import { Copy, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
-const MAPS_URL = "https://www.google.com/maps/d/u/4/edit?mid=1rc6qG7jojvN9Rp5dnVQ7isQMpSJnwlw&usp=sharing";
+const MAPS_URL = "https://maps.app.goo.gl/BVttzobf2ozsGTSx5";
 const ADDRESS = "Monte do Lago, N390, 7540-011 São Domingos";
 
 const AddressCard = () => {
