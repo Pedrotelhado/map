@@ -44,8 +44,8 @@ const Directions = () => {
     {
       icon: House,
       image: step6,
-      pt: "Seguir em frente até chegar à casa.",
-      en: "Go straight on until you reach the house.",
+      pt: "Segue os mapas até chegares à casa.",
+      en: "Follow the map until you get to the house.",
     },
   ];
 
