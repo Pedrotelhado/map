@@ -54,7 +54,7 @@ const Directions = () => {
       <div className="container max-w-3xl">
         <div className="text-center mb-12">
           <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-            {t("Ao entrar na Abela", "Upon entering Abela")}
+            {t("Ao sair da aldeia Abela", "On leaving the village Abela")}
           </h2>
 
           <p className="text-sm md:text-base text-muted-foreground">
