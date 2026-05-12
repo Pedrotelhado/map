@@ -43,7 +43,7 @@ const QuickAccess = () => {
 
           {/* Google Maps */}
           <a
-            href="https://www.google.com/maps/d/u/4/edit?mid=1rc6qG7jojvN9Rp5dnVQ7isQMpSJnwlw&usp=sharing"
+            href="https://maps.app.goo.gl/JFKtUMrdnMGFnNf4A"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center justify-center gap-4 rounded-2xl border border-border bg-white/40 backdrop-blur p-10 transition-all duration-300 hover:bg-white/60 hover:shadow-md text-center"
